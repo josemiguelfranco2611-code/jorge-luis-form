@@ -2,6 +2,94 @@
 padding: 0;
 
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F2E9EA;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+header img {
+    width: 150px;
+}
+
+h1 {
+    color: palevioletred;
+}
+
+h3 {
+    color: pink;
+}
+
+nav {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.foto{
+    
+transition: transform .35s ease;
+}
+.foto:hover{
+     transform: scale(1.08);
+}
+   
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+.boton {
+    background-color: palevioletred;
+    margin-top: 15px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backrogund-color .35s ease;
+}
+.boton:hover{
+    background-color: rgb(99, 221, 150);
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
 
 .ima{
     display: flex ; 
@@ -9,10 +97,10 @@ padding: 0;
     align-items: center;
     padding: 20px;
 }
-.foto{
-    
-    transition: transform .35s ease;
-}
-.foto:hover{
-    transform: scale(1.08);
+
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }

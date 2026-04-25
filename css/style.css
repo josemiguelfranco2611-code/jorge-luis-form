@@ -12,7 +12,7 @@ body {
 }
 
 .formulario {
-  background-color: white;
+  background-color: #e7c4e7;
   padding: 30px;
   border-radius: 10px;
   width: 350px;
@@ -46,16 +46,37 @@ button {
   margin-top: 15px;
   width: 100%;
   padding: 10px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: #c750b9;
+  color: black;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
   transition: background-color  .35s ease;
 }
+.boton2{
+  justify-content: space-between;
+  color: aliceblue;
+  
+}
+.boton a{
+  color: aliceblue;
+}
 
 button:hover {
   background-color: rgba(0, 255, 191, 0.74);
   
 }
+
+.bitcount-grid-double-uniquifier {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  font-variation-settings:
+  "slnt" 0,
+  "CRSV" 0.5,
+  "ELSH" 0,
+  "ELXP" 0;
+}
+
