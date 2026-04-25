@@ -14,9 +14,6 @@ header {
     background-color: white;
 }
 
-header img {
-    width: 150px;
-}
 
 h1 {
     color: palevioletred;
@@ -104,3 +101,21 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+.festive-regular {
+  font-family: "Festive", cursive;
+  font-weight:;
+  font-style: normal;
+
+}
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo{
+    border-radius: 15px;
+    width: 200px;
+}
+
